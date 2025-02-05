@@ -13,7 +13,7 @@ This Google Apps Script periodically checks for new emails with a specific subje
 ## Setup and Usage
 
 1. **Open Google Sheets:** Create a new Google Sheet or open an existing one where you want to store the email data.
-2. **Open Script Editor:** In the Google Sheet, go to "Tools" > "Script editor".
+2. **Open Script Editor:** In the Google Sheet, go to "Extensions" > "Apps Script".
 3. **Copy and Paste:** Copy the provided JavaScript code and paste it into the script editor.
 4. **Customize:**
     * **Sheet Name:** Change `"EmailTracking"` in the `checkForNewEmails` function to the actual name of your sheet.  If the sheet doesn't exist, the script will create it.
