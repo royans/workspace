@@ -29,7 +29,7 @@ function checkForNewEmails() {
   }
 
   // Get threads since the last run.
-  const threads = GmailApp.search('subject:"Hello World" after:' + lastRun.getTime());
+  const threads = GmailApp.search('subject:"Hello World" after:' + Math.round(lastRun.getTime()/1000));
 
   threads.forEach(thread => {
     const messages = thread.getMessages();
